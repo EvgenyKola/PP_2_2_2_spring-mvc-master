@@ -15,11 +15,8 @@ public class CarServiceImpl implements CarService {
         cars.add(new Car("Honda", "Accord", 2019));
         cars.add(new Car("BMX", "X3", 2020));
         cars.add(new Car("Lada", "Vesta", 2022));
-
         return cars;
-
     }
-
 
     public List<Car> getCars(List<Car> car, int num) {
         if (num <= 0 || num > car.size()) {
