@@ -1,14 +1,14 @@
 package web.cars;
 
-public class Cars{
+public class Car {
 
     private String production;
     private String model;
     private int year;
 
-    public Cars () {};
+    public Car() {};
 
-    public Cars (String production, String model, int year) {
+    public Car(String production, String model, int year) {
         this.production = production;
         this.model = model;
         this.year = year;

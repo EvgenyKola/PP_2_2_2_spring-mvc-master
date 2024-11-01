@@ -2,6 +2,6 @@ package web.cars;
 
 import java.util.List;
 
-public interface CarsGet {
-    public List<Cars> getCars(List <Cars> car, int num);
+public interface CarService {
+    public List<Car> getCars(List <Car> car, int num);
 }
